@@ -1,0 +1,52 @@
+{
+  "name": "hx2room",
+  "version": "1.0.0",
+  "description": "Hx2's personal web",
+  "private": true,
+  "engines": {
+    "node": ">=6.5",
+    "npm": ">=3.10"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "babel-node tools/run start",
+    "see": "babel-node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hx2heng/hx2room.github.com.git"
+  },
+  "author": "hx2",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hx2heng/hx2room.github.com/issues"
+  },
+  "homepage": "https://github.com/Hx2heng/hx2room.github.com#readme",
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-loader": "^6.2.8",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.18.0",
+    "babel-polyfill": "^6.20.0",
+    "babel-preset-react": "^6.16.0",
+    "babel-preset-stage-0": "^6.16.0",
+    "browser-sync": "^2.18.8",
+    "webpack": "^1.14.0",
+    "webpack-middleware": "^1.5.1"
+  },
+  "babel": {
+    "presets": [
+      "react",
+      "stage-0"
+    ],
+    "plugins": [
+      "transform-es2015-modules-commonjs"
+    ]
+  },
+  "dependencies": {
+    "babel-plugin-transform-remove-console": "^6.8.0",
+    "babel-polyfill": "^6.20.0",
+    "node-fetch": "^1.6.3",
+    "webpack": "^1.14.0"
+  }
+}
